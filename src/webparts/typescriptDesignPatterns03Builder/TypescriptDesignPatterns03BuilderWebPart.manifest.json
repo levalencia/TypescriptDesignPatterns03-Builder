@@ -1,0 +1,26 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "971c09eb-5d1f-41ee-a85d-4e23c2b61a7a",
+  "alias": "TypescriptDesignPatterns03BuilderWebPart",
+  "componentType": "WebPart",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "971c09eb-5d1f-41ee-a85d-4e23c2b61a7a",
+    "group": { "default": "Under Development" },
+    "title": { "default": "TypescriptDesignPatterns03Builder" },
+    "description": { "default": "typescriptDesignPatterns03Builder description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "TypescriptDesignPatterns03Builder"
+    }
+  }]
+}

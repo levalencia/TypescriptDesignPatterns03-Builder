@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.2.0",
+    "libraryName": "typescript-design-patterns-03-builder",
+    "libraryId": "be0da381-5971-41d0-8c7a-7edab706d1d5",
+    "environment": "spo"
+  }
+}
