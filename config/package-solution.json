@@ -2,8 +2,9 @@
   "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
     "name": "typescript-design-patterns-03-builder-client-side-solution",
-    "id": "be0da381-5971-41d0-8c7a-7edab706d1d5",
+    "id": "b554edb7-d511-4beb-8cfa-6612988f0f2b",
     "version": "1.0.0.0",
+    "includeClientSideAssets": true,
     "skipFeatureDeployment": true
   },
   "paths": {

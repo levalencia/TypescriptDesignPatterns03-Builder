@@ -1,7 +1,7 @@
 import IPacking from "./IPacking";
 
 class Wrapper implements IPacking {
-    pack(): string {
+    public pack(): string {
        return "Wrapper";
     }
 }

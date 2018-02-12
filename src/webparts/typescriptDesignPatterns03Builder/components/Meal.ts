@@ -1,13 +1,13 @@
 import IItem from "./IItem";
 
 class Meal {
-    items: IItem[];
+    private items: IItem[];
 
-    addItem(item: IItem): void {
+    public addItem(item: IItem): void {
         this.items.push(item);
     }
 
-    getCost(): number {
+    public getCost(): number {
         let cost: number  = 0;
         for(let item of this.items) {
             cost+= item.price();
@@ -16,7 +16,7 @@ class Meal {
         return cost;
     }
 
-    showItems(): string {
+    public showItems(): string {
         let returnStr: string;
         for(let item of this.items) {
             returnStr +="Item:" + item.name;

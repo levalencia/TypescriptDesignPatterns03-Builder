@@ -1,7 +1,7 @@
 import IPacking from "./IPacking";
 
 class Bottle implements IPacking {
-    pack(): string {
+    public pack(): string {
        return "Bottle";
     }
 }

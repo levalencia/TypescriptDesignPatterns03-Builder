@@ -24,4 +24,3 @@ gulp test - TODO
 gulp serve - TODO
 gulp bundle - TODO
 gulp package-solution - TODO
-"# TypescriptDesignPatterns03-Builder"  git init git add README.md git commit -m "first commit" git remote add origin https://github.com/levalencia/TypescriptDesignPatterns03-Builder.git git push -u origin master

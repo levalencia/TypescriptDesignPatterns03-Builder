@@ -1,11 +1,11 @@
 import ColdDrink from "./ColdDrink";
 
 class Coke extends ColdDrink {
-    price(): number {
+    public price(): number {
        return 2.5;
     }
 
-    name(): string {
+    public name(): string {
         return "Coca Cola";
     }
 }

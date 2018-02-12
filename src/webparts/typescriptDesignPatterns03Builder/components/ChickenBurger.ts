@@ -1,11 +1,11 @@
 import Burger from "./Burger";
 
 class ChickenBurger extends Burger {
-    price(): number {
+    public price(): number {
         return 15;
     }
 
-    name(): string {
+    public name(): string {
         return "Chicken Burger";
     }
 }

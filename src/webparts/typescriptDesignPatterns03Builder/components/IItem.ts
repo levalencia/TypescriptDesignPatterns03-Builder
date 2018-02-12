@@ -1,6 +1,8 @@
+import IPacking from "./IPacking";
+
 interface IItem {
     name(): string;
-    packing(): Packing;
+    packing(): IPacking;
     price(): number;
 }
 

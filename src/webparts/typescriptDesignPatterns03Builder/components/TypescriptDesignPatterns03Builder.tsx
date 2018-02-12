@@ -12,9 +12,9 @@ import Version from "@microsoft/sp-core-library/lib/Version";
 
 export default class TypescriptDesignPatterns03Builder extends React.Component<ITypescriptDesignPatterns03BuilderProps, {}> {
 
-  mealBuilder: MealBuilder ;
-  items: string;
-  meal: Meal;
+  private mealBuilder: MealBuilder ;
+  private items: string;
+  private meal: Meal;
 
   constructor(props: ITypescriptDesignPatterns03BuilderProps, state: any) {
     super(props);

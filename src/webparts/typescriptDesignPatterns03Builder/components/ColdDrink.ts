@@ -3,14 +3,14 @@ import IPacking from "./IPacking";
 import Bottle from "./Bottle";
 
 abstract class ColdDrink implements IItem {
-    name(): string {
+    public name(): string {
         throw new Error("Method not implemented.");
     }
-    packing(): IPacking {
+    public packing(): IPacking {
         return new Bottle();
     }
 
-    abstract price(): number ;
+    public abstract price(): number ;
 
 }
 

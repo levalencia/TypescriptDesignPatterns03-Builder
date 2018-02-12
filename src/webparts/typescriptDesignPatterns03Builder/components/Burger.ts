@@ -3,15 +3,15 @@ import Wrapper from "./Wrapper";
 import IPacking from "./IPacking";
 
 abstract class Burger implements IItem {
-    name(): string {
+    public name(): string {
         throw new Error("Method not implemented.");
     }
 
-    packing(): IPacking {
+    public packing(): IPacking {
         return new Wrapper();
     }
 
-    abstract price(): number ;
+    public abstract price(): number ;
 
 }
 
